@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+    padding: 1rem;
+    color: #ffffff;
+}
+@font-face {
+    font-family: 'inter-regular';
+    src: url('fonts/inter-600.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('fonts/roboto-900.woff2') format('woff2');
+  }
+#logo-olivier{
+    width: 9.625rem;
+    height: auto;
+}
+p, a{
+    font-family: 'inter-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+}
+h2{    
+    width: 27.5625rem;
+    font-family: 'inter-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+}
+h1{    
+    width: 27.5625rem;
+    font-family: 'inter-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+}
+
+#hero{
+    min-height: 100vh;
+    background-image: url(pics/BG.svg);
+}
+#intro{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12.375rem;
+}
+#intro-text{
+    padding-left: 7.875rem;
+
+}
+#hola{
+    font-size: 4.5rem;
+    line-height: 6.3125rem;
+    letter-spacing: -0.1875rem;
+}
+#title{
+    display: block;
+    font-family: 'inter-regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 6.3125rem;
+    color: #F87F28;
+}
+#skills{
+    color: #ffffff;
+    font-family: 'inter-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
